@@ -36,7 +36,7 @@
 		<div
 			class="flex flex-col items-center justify-center gap-4 text-center md:items-start md:text-left"
 		>
-			<H1>{HomeData.hero.title}</H1>
+			<H1>Hi!</H1>
 			<Muted>{HomeData.hero.description}</Muted>
 			<div class="flex flex-row gap-1">
 				{#each HomeData.hero.links as item}
@@ -54,7 +54,7 @@
 			</div>
 		</div>
 		<div>
-			<Carousel bind:api class="w-[200px] md:ml-14" opts={{ loop: true }}>
+			<!-- <Carousel bind:api class="w-[200px] md:ml-14" opts={{ loop: true }}>
 				<CarouselContent>
 					{#each HomeData.carousel as item}
 						<CarouselItem class="flex flex-col items-center justify-center gap-4">
@@ -73,7 +73,8 @@
 				</CarouselContent>
 				<CarouselNext />
 				<CarouselPrevious />
-			</Carousel>
+			</Carousel> -->
+			<img src="/images/cartoon.png" class="rounded-full h-[200px] w-[200px] max-w-[200px]" alt="Maik Larooij" />
 		</div>
 	</div>
 </ResponsiveContainer>

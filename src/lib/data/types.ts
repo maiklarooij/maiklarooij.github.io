@@ -74,6 +74,15 @@ export interface Experience<S extends string = string> extends Project<S> {
 	contract: ContractType;
 }
 
+export interface Publication<S extends string = string> extends Item<S> {
+	title: string;
+	authors: Array<string>;
+	journal: string;
+	year: number;
+	links: Array<Link>;
+	color: string;
+}
+
 export interface Education<S extends string = string> extends Item<S> {
 	organization: string;
 	location: string;
