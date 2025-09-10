@@ -1,5 +1,4 @@
 import BaseData from './base';
-import { getSkills } from './skills';
 import type { Skill } from './types';
 
 const title = 'Home';
@@ -22,12 +21,9 @@ const hero: {
 	]
 };
 
-const carousel: Array<Skill> = getSkills();
-
 const HomeData = {
 	title,
-	hero,
-	carousel
+	hero
 };
 
 export default HomeData;

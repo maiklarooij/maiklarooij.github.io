@@ -1,31 +1,12 @@
 <script lang="ts">
 	import Title from '$lib/components/common/title/title.svelte';
 	import Button from '$lib/components/ui/button/button.svelte';
-	import CarouselContent from '$lib/components/ui/carousel/carousel-content.svelte';
-	import CarouselItem from '$lib/components/ui/carousel/carousel-item.svelte';
-	import CarouselNext from '$lib/components/ui/carousel/carousel-next.svelte';
-	import CarouselPrevious from '$lib/components/ui/carousel/carousel-previous.svelte';
-	import Carousel from '$lib/components/ui/carousel/carousel.svelte';
 	import Icon from '$lib/components/ui/icon/icon.svelte';
 	import ResponsiveContainer from '$lib/components/ui/responsive-container/responsive-container.svelte';
 	import { Tooltip, TooltipContent, TooltipTrigger } from '$lib/components/ui/tooltip';
 	import H1 from '$lib/components/ui/typography/h1.svelte';
 	import Muted from '$lib/components/ui/typography/muted.svelte';
 	import HomeData from '$lib/data/home';
-	import { href } from '$lib/utils';
-	import { mode } from 'mode-watcher';
-	import { type CarouselAPI } from '$lib/components/ui/carousel/context.js';
-	import { onMount } from 'svelte';
-
-	let api: CarouselAPI;
-
-	onMount(() => {
-		setInterval(() => {
-			if (!api) return;
-
-			api.scrollNext();
-		}, 2000);
-	});
 </script>
 
 <Title title={HomeData.title} />

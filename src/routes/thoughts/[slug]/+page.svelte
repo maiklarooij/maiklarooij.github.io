@@ -10,7 +10,7 @@
 	import H1 from '$lib/components/ui/typography/h1.svelte';
 	import Muted from '$lib/components/ui/typography/muted.svelte';
 	import Assets from '$lib/data/assets';
-	import type { Project } from '$lib/data/types';
+	import type { Thought } from '$lib/data/types';
 	import { computeExactDuration, getMonthAndYear, href } from '$lib/utils';
 	import { mode } from 'mode-watcher';
 

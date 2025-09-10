@@ -1,5 +1,4 @@
 import Assets from './assets';
-import { getSkills } from './skills';
 import type { Thought } from './types';
 
 const items: Array<Thought> = [
