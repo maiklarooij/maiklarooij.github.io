@@ -8,7 +8,7 @@ const items: Array<{
 	href: string;
 }> = [
 	{ title: 'Publications', icon: 'i-carbon-assembly-cluster', href: '/publications' },
-	{ title: 'Thoughts', icon: 'i-carbon-idea', href: '/projects' },
+	{ title: 'Thoughts', icon: 'i-carbon-idea', href: '/thoughts' },
 	// { title: 'CV', icon: 'i-carbon-document', href: '/resume' }
 ];
 
