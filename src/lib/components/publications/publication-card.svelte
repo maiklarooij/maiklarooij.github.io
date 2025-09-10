@@ -27,6 +27,8 @@
 					<Muted className="flex flex-row items-center gap-2">
 						<Icon icon="i-carbon-calendar" />
 						<div>{it.year}</div>
+						<Icon icon="i-carbon-time" />
+						<div>{it.authors}</div>
 					</Muted>
 				</TooltipTrigger>
 				<TooltipContent>Date range</TooltipContent>

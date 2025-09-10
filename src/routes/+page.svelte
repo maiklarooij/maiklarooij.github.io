@@ -37,7 +37,7 @@
 			class="flex flex-col items-center justify-center gap-4 text-center md:items-start md:text-left"
 		>
 			<H1>Hi!</H1>
-			<Muted>{HomeData.hero.description}</Muted>
+			<Muted>{@html HomeData.hero.description}</Muted>
 			<div class="flex flex-row gap-1">
 				{#each HomeData.hero.links as item}
 					<a href={item.href} target="_blank">
@@ -54,26 +54,6 @@
 			</div>
 		</div>
 		<div>
-			<!-- <Carousel bind:api class="w-[200px] md:ml-14" opts={{ loop: true }}>
-				<CarouselContent>
-					{#each HomeData.carousel as item}
-						<CarouselItem class="flex flex-col items-center justify-center gap-4">
-							<img
-								src={$mode === 'dark' ? item.logo.dark : item.logo.light}
-								class="h-[150px] w-[150px]"
-								alt={item.name}
-							/>
-							<a href={href(`/skills/${item.slug}`)}>
-								<Button variant="ghost">
-									{item.name}
-								</Button>
-							</a>
-						</CarouselItem>
-					{/each}
-				</CarouselContent>
-				<CarouselNext />
-				<CarouselPrevious />
-			</Carousel> -->
 			<img src="/images/cartoon.png" class="rounded-full h-[200px] w-[200px] max-w-[200px]" alt="Maik Larooij" />
 		</div>
 	</div>

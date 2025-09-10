@@ -7,7 +7,7 @@ const title = 'Publications';
 const items: Array<Publication> = [
 	{
 		title: "Do large language models solve the problems of agent-based modeling? A critical review of generative social simulations",
-		authors: ["Larooij, M.", "T"],
+		authors: ["Larooij, M.", "Tornberg, P."],
 		year: 2025,
 		journal: "Journal of Testing",
 		links: [{ to: "https://example.com", label: "View Publication", newTab: true }],

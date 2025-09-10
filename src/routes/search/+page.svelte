@@ -14,7 +14,7 @@
 	import { NAMED_COLORS } from '$lib/data/colors';
 	import EducationData from '$lib/data/education';
 	import ExperienceData from '$lib/data/experience';
-	import ProjectsData from '$lib/data/projects';
+	import ThoughtsData from '$lib/data/thoughts';
 	import SkillsData from '$lib/data/skills';
 	import { href } from '$lib/utils';
 	import { mode } from 'mode-watcher';
@@ -37,7 +37,7 @@
 	const getResult = (q: string): Array<Group> => {
 		const skills = SkillsData.items.filter((it) => it.name.toLowerCase().includes(q.toLowerCase()));
 
-		const projects = ProjectsData.items.filter((it) =>
+		const projects = ThoughtsData.items.filter((it) =>
 			it.name.toLowerCase().includes(q.toLowerCase())
 		);
 

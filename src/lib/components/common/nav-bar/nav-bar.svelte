@@ -58,11 +58,6 @@
 		{/each}
 	</div>
 	<div class="hidden flex-row items-center justify-end gap-2 sm:flex sm:flex-1">
-		<a href={href('/search')}>
-			<Button variant="ghost" class="text-xl">
-				<Icon icon="i-carbon-search" />
-			</Button>
-		</a>
 		<Button variant="ghost" class="text-xl" on:click={toggleMode}>
 			<Icon icon={isDarkMode ? 'i-carbon-moon' : 'i-carbon-sun'} />
 		</Button>

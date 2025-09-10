@@ -4,7 +4,7 @@
 	import ProjectCard from '$lib/components/projects/project-card.svelte';
 	import Icon from '$lib/components/ui/icon/icon.svelte';
 	import Toggle from '$lib/components/ui/toggle/toggle.svelte';
-	import ProjectsData from '$lib/data/projects';
+	import ThoughtsData from '$lib/data/thoughts';
 	import SkillsData from '$lib/data/skills';
 	import type { Skill } from '$lib/data/types';
 
@@ -14,7 +14,7 @@
 
 	let filters: Array<SkillFilter> = $state(
 		SkillsData.items.filter((it) => {
-			return ProjectsData.items.some((project) =>
+			return ThoughtsData.items.some((project) =>
 				project.skills.some((skill) => skill.slug === it.slug)
 			);
 		})
@@ -22,7 +22,7 @@
 
 	let search = $state('');
 	let result = $derived(
-		ProjectsData.items.filter((project) => {
+		ThoughtsData.items.filter((project) => {
 			const isFiltered =
 				filters.every((item) => !item.isSelected) ||
 				project.skills.some((tech) =>
@@ -44,7 +44,7 @@
 	const onSearch = (query: string) => (search = query);
 </script>
 
-<SearchPage title={ProjectsData.title} {onSearch}>
+<SearchPage title={ThoughtsData.title} {onSearch}>
 	<div class="flex flex-1 flex-col gap-8">
 		<div class="flex flex-row flex-wrap gap-2">
 			{#each filters as it (it.slug)}

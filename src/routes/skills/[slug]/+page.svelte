@@ -10,7 +10,7 @@
 	import Muted from '$lib/components/ui/typography/muted.svelte';
 	import Assets from '$lib/data/assets';
 	import ExperienceData from '$lib/data/experience';
-	import ProjectsData from '$lib/data/projects';
+	import ProjectsData from '$lib/data/thoughts';
 	import type { Skill } from '$lib/data/types';
 	import { href } from '$lib/utils';
 	import { mode } from 'mode-watcher';
