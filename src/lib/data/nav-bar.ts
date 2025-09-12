@@ -9,7 +9,7 @@ const items: Array<{
 }> = [
 	{ title: 'Publications', icon: 'i-carbon-assembly-cluster', href: '/publications' },
 	{ title: 'Thoughts', icon: 'i-carbon-idea', href: '/thoughts' },
-	// { title: 'CV', icon: 'i-carbon-document', href: '/resume' }
+	{ title: 'CV', icon: 'i-carbon-document', href: '/cv' }
 ];
 
 const NavBarData = { left, items };
