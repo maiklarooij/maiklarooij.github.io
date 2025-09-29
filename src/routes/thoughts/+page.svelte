@@ -1,7 +1,7 @@
 <script lang="ts">
 	import EmptyResult from '$lib/components/common/empty-result/empty-result.svelte';
 	import SearchPage from '$lib/components/common/search-page/search-page.svelte';
-	import ProjectCard from '$lib/components/projects/project-card.svelte';
+	import ThoughtCard from '$lib/components/thoughts/thought-card.svelte';
 	import Icon from '$lib/components/ui/icon/icon.svelte';
 	import Toggle from '$lib/components/ui/toggle/toggle.svelte';
 	import ThoughtsData from '$lib/data/thoughts';
@@ -29,7 +29,7 @@
 		{:else}
 			<div class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
 				{#each result as it (it.slug)}
-					<ProjectCard project={it} />
+					<ThoughtCard thought={it} />
 				{/each}
 			</div>
 		{/if}
