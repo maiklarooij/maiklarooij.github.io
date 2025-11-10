@@ -75,6 +75,8 @@ const Assets = {
 	DIR2025: asset('../images/dir2025.jpg'),
 	HackatonWoo: asset('../images/hackaton-pitch.jpeg'),
 	ThesisFair: asset('../images/thesis-fair.jpg'),
+	ConvSearch: asset('../images/conversational-search.jpg'),
+	Ideathon: asset('../images/ideathon.jpeg'),
 };
 
 export default Assets;

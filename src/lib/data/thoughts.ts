@@ -3,6 +3,18 @@ import type { Thought } from './types';
 
 const items: Array<Thought> = [
 	{
+		slug: '20251110-conversational-search',
+		color: '#5e95e3',
+		description:
+			"My research is getting more form! Generative AI has changed the way we search and Conversational Search is thus a very exciting research area!",
+		shortDescription:
+			"My research is getting more form! Generative AI has changed the way we search and Conversational Search is thus a very exciting research area!",
+		logo: Assets.ConvSearch,
+		name: 'Conversational Search!',
+		date: '2025-11-10',
+		type: 'Research',
+	},
+	{
 		slug: '20251101-hackaton-woo',
 		color: '#5e95e3',
 		description:
@@ -49,6 +61,18 @@ const items: Array<Thought> = [
 		name: 'First external assignment: RIVM!',
 		date: '2025-10-06',
 		type: 'Work',
+	},
+	{
+		slug: '20251002-ideathon-democracy-accelerator',
+		color: '#5e95e3',
+		description:
+			"On Thursday, October 2nd, Open State Foundation and the Social Technology Lab organised an Ideathon: Democracy Accelerator! Our idea, 'Quote of Context', was unanimously selected as the winning idea!",
+		shortDescription:
+			"On Thursday, October 2nd, Open State Foundation and the Social Technology Lab organised an Ideathon: Democracy Accelerator! Our idea, 'Quote of Context', was unanimously selected as the winning idea!",
+		logo: Assets.Ideathon,
+		name: 'Democracy Accelerator!',
+		date: '2025-10-02',
+		type: 'Event',
 	},
 	{
 		slug: '20250929-starting-phd-journey',
