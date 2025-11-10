@@ -70,7 +70,11 @@ const Assets = {
 	Unocss: asset('unocss.svg'),
 	Ruvy: asset('ruvy.svg'),
 	Postcss: asset('postcss.svg'),
-	ProfilePic: asset('profilepic.png')
+	ProfilePic: asset('profilepic.png'),
+	RIVM: asset('rivm.jpg'),
+	DIR2025: asset('../images/dir2025.jpg'),
+	HackatonWoo: asset('../images/hackaton-pitch.jpeg'),
+	ThesisFair: asset('../images/thesis-fair.jpg'),
 };
 
 export default Assets;

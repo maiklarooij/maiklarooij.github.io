@@ -3,6 +3,54 @@ import type { Thought } from './types';
 
 const items: Array<Thought> = [
 	{
+		slug: '20251101-hackaton-woo',
+		color: '#5e95e3',
+		description:
+			"On Friday, October 31st, and Saterday, November 1st, the Ministry of the Interior and Kingdom Relations and the program Open Government (Programma Open Overheid) organised a hackaton to improve the internal process of responding to Woo-requests. David, Damiaan, Maik and Jos (PhD student @ Utrecht University) represented the OpenGov Lab as one of the ten teams that participated in the event!",
+		shortDescription:
+			"On Friday, October 31st, and Saterday, November 1st, the Ministry of the Interior and Kingdom Relations and the program Open Government (Programma Open Overheid) organised a hackaton to improve the internal process of responding to Woo-requests. David, Damiaan, Maik and Jos (PhD student @ Utrecht University) represented the OpenGov Lab as one of the ten teams that participated in the event!",
+		logo: Assets.HackatonWoo,
+		name: 'Participating in a hackaton!',
+		date: '2025-11-01',
+		type: 'Event',
+	},
+	{
+		slug: '20251027-dir2025',
+		color: '#5e95e3',
+		description:
+			"On Monday, October 27, the annual Dutch-Belgian Information Retrieval (DIR) conference took place at Radboud University Nijmegen. I presented my poster about WooGLe, a search engine for government information, and the accompanying dataset of government documents.",
+		shortDescription:
+			"On Monday, October 27, the annual Dutch-Belgian Information Retrieval (DIR) conference took place at Radboud University Nijmegen. I presented my poster about WooGLe, a search engine for government information, and the accompanying dataset of government documents.",
+		logo: Assets.DIR2025,
+		name: 'Presenting poster at DIR2025!',
+		date: '2025-10-27',
+		type: 'Research',
+	},
+	{
+		slug: '20251017-thesis-fair',
+		color: '#5e95e3',
+		description:
+			"On Friday, October 17th, a delegation (David, Jaap, Damiaan & Me) of the ICAI OpenGov Lab was present at the UvA (AI) Thesis Fair to talk to prospective thesis students!",
+		shortDescription:
+			"On Friday, October 17th, a delegation (David, Jaap, Damiaan & Me) of the ICAI OpenGov Lab was present at the UvA (AI) Thesis Fair to talk to prospective thesis students!",
+		logo: Assets.ThesisFair,
+		name: 'OpenGov Lab at UvA Thesis Fair!',
+		date: '2025-10-17',
+		type: 'Event',
+	},
+	{
+		slug: '20251006-starting-at-rivm',
+		color: '#5e95e3',
+		description:
+			"In October 2025, I have started my first external advisory assignment at RIVM (the Dutch National Institute for Public Health and the Environment). I will advise them on the 'active' publication of government information as the Wet open overheid (Woo) demands.",
+		shortDescription:
+			"In October 2025, I have started my first external advisory assignment at RIVM (the Dutch National Institute for Public Health and the Environment). I will advise them on the 'active' publication of government information as the Wet open overheid (Woo) demands.",
+		logo: Assets.RIVM,
+		name: 'First external assignment: RIVM!',
+		date: '2025-10-06',
+		type: 'Work',
+	},
+	{
 		slug: '20250929-starting-phd-journey',
 		color: '#5e95e3',
 		description:

@@ -36,12 +36,13 @@
 	href={href(`/thoughts/${thought.slug}`)}
 >
 	<CardHeader class="flex w-full flex-col gap-4">
-		<Avatar>
+		<!-- <Avatar>
 			<AvatarFallback>
 				<img src={Assets.Unknown.light} alt={thought.name} />
 			</AvatarFallback>
 			<AvatarImage src={$mode === 'dark' ? thought.logo.dark : thought.logo.light} />
-		</Avatar>
+		</Avatar> -->
+		<img src={$mode === 'dark' ? thought.logo.dark : thought.logo.light} alt={thought.name} class="h-32 rounded-md object-cover" />
 		<div class="flex w-full flex-row items-center gap-1 overflow-x-hidden">
 			<CardTitle class="h-auto min-w-0 flex-1 overflow-x-hidden">
 				<Tooltip>
