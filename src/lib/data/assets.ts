@@ -77,6 +77,7 @@ const Assets = {
 	ThesisFair: asset('../images/thesis-fair.jpg'),
 	ConvSearch: asset('../images/conversational-search.jpg'),
 	Ideathon: asset('../images/ideathon.jpeg'),
+	AIReview: asset('../images/ai-review-publication.png'),
 };
 
 export default Assets;

@@ -3,6 +3,18 @@ import type { Thought } from './types';
 
 const items: Array<Thought> = [
 	{
+		slug: '20251121-master-project-publications',
+		color: '#5e95e3',
+		description:
+			"How exciting! My Master thesis literature review, rewritten together with dr. Petter Törnberg, has now been published in the Artificial Intelligence Review journal! This paper discusses the central challenge of validation for generative social simulation using LLMs.",
+		shortDescription:
+			"How exciting! My Master thesis literature review, rewritten together with dr. Petter Törnberg, has now been published in the Artificial Intelligence Review journal! This paper discusses the central challenge of validation for generative social simulation using LLMs.",
+		logo: Assets.AIReview,
+		name: 'Master project publication 1/2!',
+		date: '2025-11-21',
+		type: 'Research',
+	},
+	{
 		slug: '20251110-conversational-search',
 		color: '#5e95e3',
 		description:

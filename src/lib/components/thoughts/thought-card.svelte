@@ -67,7 +67,7 @@
 			<Muted>{thought.date}</Muted>
 		</Muted>
 		<Muted className="py-4 md:py-2 md:min-h-[100px] md:max-h-[100px]"
-			>{ellipsify(thought.shortDescription, 100)}</Muted
+			>{ellipsify(thought.shortDescription, 150)}</Muted
 		>
 		<Separator />
 	</CardContent>

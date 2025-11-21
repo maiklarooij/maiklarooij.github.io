@@ -4,7 +4,8 @@ Check out my (hopefully up-to-date) list of publications! You can always visit m
 
 - [Larooij, M., & Törnberg, P. (2025). Can We Fix Social Media? Testing Prosocial Interventions using Generative Social Simulation. arXiv preprint arXiv:2508.03385.](https://arxiv.org/abs/2508.03385)
 - [Larooij, M. (2025). Testing Prosocial Interventions Through Generative Simulation (master thesis.)](/pdf/master-thesis.pdf)
-- [Larooij, M., & Törnberg, P. (2025). Do Large Language Models Solve the Problems of Agent-Based Modeling? A Critical Review of Generative Social Simulations. arXiv preprint arXiv:2504.03274.](https://arxiv.org/abs/2504.03274)
+- [Larooij, M., & Törnberg, P. (2025). Validation is the central challenge for generative social simulation: a critical review of LLMs in agent-based modeling. Artificial Intelligence Review 59(15).](https://link.springer.com/article/10.1007/s10462-025-11412-6)
+    - arXiv version: [Larooij, M., & Törnberg, P. (2025). Do Large Language Models Solve the Problems of Agent-Based Modeling? A Critical Review of Generative Social Simulations. arXiv preprint arXiv:2504.03274.](https://arxiv.org/abs/2504.03274)
 - [van Heusden, R., Larooij, M., Kamps, J., & Marx, M. (2025). A collection of FAIR Dutch Freedom of Information Act documents. Scientific Data, 12(1), 795.](https://www.nature.com/articles/s41597-025-05052-2)
 
 ## 2024
