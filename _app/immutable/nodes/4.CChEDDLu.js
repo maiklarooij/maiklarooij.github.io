@@ -4,7 +4,8 @@ import{a as t,b as s}from"../chunks/disclose-version.DE1wpc7x.js";import{i as l}
 
 - [Larooij, M., & Törnberg, P. (2025). Can We Fix Social Media? Testing Prosocial Interventions using Generative Social Simulation. arXiv preprint arXiv:2508.03385.](https://arxiv.org/abs/2508.03385)
 - [Larooij, M. (2025). Testing Prosocial Interventions Through Generative Simulation (master thesis.)](/pdf/master-thesis.pdf)
-- [Larooij, M., & Törnberg, P. (2025). Do Large Language Models Solve the Problems of Agent-Based Modeling? A Critical Review of Generative Social Simulations. arXiv preprint arXiv:2504.03274.](https://arxiv.org/abs/2504.03274)
+- [Larooij, M., & Törnberg, P. (2025). Validation is the central challenge for generative social simulation: a critical review of LLMs in agent-based modeling. Artificial Intelligence Review 59(15).](https://link.springer.com/article/10.1007/s10462-025-11412-6)
+    - arXiv version: [Larooij, M., & Törnberg, P. (2025). Do Large Language Models Solve the Problems of Agent-Based Modeling? A Critical Review of Generative Social Simulations. arXiv preprint arXiv:2504.03274.](https://arxiv.org/abs/2504.03274)
 - [van Heusden, R., Larooij, M., Kamps, J., & Marx, M. (2025). A collection of FAIR Dutch Freedom of Information Act documents. Scientific Data, 12(1), 795.](https://www.nature.com/articles/s41597-025-05052-2)
 
 ## 2024
@@ -21,4 +22,4 @@ import{a as t,b as s}from"../chunks/disclose-version.DE1wpc7x.js";import{i as l}
 
 ## 2022
 
-- [Larooij, M. (2022). De FAIRificatie van Woo-Dossiers (bachelor thesis). Scriptiebank Universiteit van Amsterdam.](https://scripties.uba.uva.nl/search?id=record_27630)`;var v=s('<article class="prose max-w-full"><!></article>');function x(a,e){c(e,!1);const r=u(g);l(),f(a,{title:"Publications",children:(i,M)=>{var o=v(),n=m(o);h(n,()=>r),d(o),t(i,o)},$$slots:{default:!0}}),p()}export{x as component};
+- [Larooij, M. (2022). De FAIRificatie van Woo-Dossiers (bachelor thesis). Scriptiebank Universiteit van Amsterdam.](https://scripties.uba.uva.nl/search?id=record_27630)`;var v=s('<article class="prose max-w-full"><!></article>');function x(e,o){c(o,!1);const i=u(g);l(),f(e,{title:"Publications",children:(r,M)=>{var a=v(),n=m(a);h(n,()=>i),d(a),t(r,a)},$$slots:{default:!0}}),p()}export{x as component};
