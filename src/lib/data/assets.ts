@@ -78,6 +78,7 @@ const Assets = {
 	ConvSearch: asset('../images/conversational-search.jpg'),
 	Ideathon: asset('../images/ideathon.jpeg'),
 	AIReview: asset('../images/ai-review-publication.png'),
+	ECIR2026: asset('../images/ecir.png'),
 };
 
 export default Assets;

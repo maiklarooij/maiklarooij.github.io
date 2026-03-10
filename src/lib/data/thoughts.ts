@@ -3,6 +3,18 @@ import type { Thought } from './types';
 
 const items: Array<Thought> = [
 	{
+		slug: '20260310-workshop-ecir',
+		color: '#5e95e3',
+		description:
+			"At the beginning of April, I’ll be presenting my workshop paper titled 'Sensitivity-Aware Retrieval Augmented Intent Clarification' (don’t worry, I’ll explain that below) at the European Conference on Information Retrieval in Delft.",
+		shortDescription:
+			"At the beginning of April, I’ll be presenting my workshop paper titled 'Sensitivity-Aware Retrieval Augmented Intent Clarification' (don’t worry, I’ll explain that below) at the European Conference on Information Retrieval in Delft.",
+		logo: Assets.ECIR2026,
+		name: 'Workshop paper accepted into ECIR 2026!',
+		date: '2026-03-10',
+		type: 'Research',
+	},
+	{
 		slug: '20251121-master-project-publications',
 		color: '#5e95e3',
 		description:
