@@ -2,6 +2,7 @@ Check out my (hopefully up-to-date) list of publications! You can always visit m
 
 ## 2026
 
+- [WORKSHOP PAPER / PREPRINT] [Larooij, M. & Graus, D. (2026). To Redact, or not to Redact? A Local LLM Approach to Deliberative Process Privilege Classification. First Workshop on AI for Open Government @ ICAIL 2026.](https://arxiv.org/abs/2605.10211)
 - [WORKSHOP PAPER / PREPRINT] [Larooij, M. (2026). Sensitivity-Aware Retrieval-Augmented Intent Clarification. Workshop on Conversational Search for Complex Information Needs @ ECIR 2026.](https://arxiv.org/abs/2603.06025)
 
 ## 2025
