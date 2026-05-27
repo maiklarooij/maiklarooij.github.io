@@ -1,7 +1,8 @@
-import{a as t,b as s}from"../chunks/disclose-version.DE1wpc7x.js";import{i as l}from"../chunks/legacy.6WL3dxYg.js";import{p as c,m as p,c as m,r as h}from"../chunks/utils.BH13fVjs.js";import{h as d}from"../chunks/html.Ccgm1QaW.js";import{d as f}from"../chunks/marked.esm.BTmno7zS.js";import{T as u}from"../chunks/titled-page.Ct78g6ks.js";const g=`Check out my (hopefully up-to-date) list of publications! You can always visit my [Google Scholar page](https://scholar.google.com/citations?user=YfZMihcAAAAJ).
+import{a as t,b as s}from"../chunks/disclose-version.DE1wpc7x.js";import{i as l}from"../chunks/legacy.6WL3dxYg.js";import{p as c,m as p,c as m,r as h}from"../chunks/utils.BH13fVjs.js";import{h as d}from"../chunks/html.Ccgm1QaW.js";import{d as f}from"../chunks/marked.esm.BTmno7zS.js";import{T as v}from"../chunks/titled-page.Ct78g6ks.js";const g=`Check out my (hopefully up-to-date) list of publications! You can always visit my [Google Scholar page](https://scholar.google.com/citations?user=YfZMihcAAAAJ).
 
 ## 2026
 
+- [WORKSHOP PAPER / PREPRINT] [Larooij, M. & Graus, D. (2026). To Redact, or not to Redact? A Local LLM Approach to Deliberative Process Privilege Classification. First Workshop on AI for Open Government @ ICAIL 2026.](https://arxiv.org/abs/2605.10211)
 - [WORKSHOP PAPER / PREPRINT] [Larooij, M. (2026). Sensitivity-Aware Retrieval-Augmented Intent Clarification. Workshop on Conversational Search for Complex Information Needs @ ECIR 2026.](https://arxiv.org/abs/2603.06025)
 
 ## 2025
@@ -26,4 +27,4 @@ import{a as t,b as s}from"../chunks/disclose-version.DE1wpc7x.js";import{i as l}
 
 ## 2022
 
-- [THESIS] [Larooij, M. (2022). De FAIRificatie van Woo-Dossiers (bachelor thesis). Scriptiebank Universiteit van Amsterdam.](https://scripties.uba.uva.nl/search?id=record_27630)`;var v=s('<article class="prose max-w-full"><!></article>');function E(e,o){c(o,!1);const i=f(g);l(),u(e,{title:"Publications",children:(r,M)=>{var a=v(),n=m(a);d(n,()=>i),h(a),t(r,a)},$$slots:{default:!0}}),p()}export{E as component};
+- [THESIS] [Larooij, M. (2022). De FAIRificatie van Woo-Dossiers (bachelor thesis). Scriptiebank Universiteit van Amsterdam.](https://scripties.uba.uva.nl/search?id=record_27630)`;var u=s('<article class="prose max-w-full"><!></article>');function E(a,e){c(e,!1);const i=f(g);l(),v(a,{title:"Publications",children:(r,P)=>{var o=u(),n=m(o);d(n,()=>i),h(o),t(r,o)},$$slots:{default:!0}}),p()}export{E as component};
